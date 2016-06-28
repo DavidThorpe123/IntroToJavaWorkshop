@@ -8,8 +8,18 @@ public class MyFirstJavaProgram {
 		
 		// START HERE
 
+Robot Leafy = new Robot();
+Leafy.setSpeed(10);
+Leafy.penDown();
+Leafy.setPenWidth(10000);
+Leafy.sparkle();
+for (int i = 0; i < 4; i++) {
+	Leafy.move(500);
+	Leafy.turn(90);
+	Leafy.setRandomPenColor();
+
 	
-		
+}
 		
 	}
 }
